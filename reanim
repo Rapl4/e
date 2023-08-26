@@ -5,7 +5,7 @@
 if not gethiddenproperty and true or gethiddenproperty(workspace,"RejectCharacterDeletions") == Enum.RejectCharacterDeletions.Enabled then
 	return -- game is patched
 end
-
+print("bega")
 local SpeedTest = tick()
 
 local Global = getgenv and getgenv() or shared
@@ -16,7 +16,8 @@ do -- [[ Default Settings ]] --
 			Global[Var] = DefaultValue
 		end
 	end
-
+print("lolol")
+wait(1)
 	CheckSetting("Velocity",-17.73)
 	CheckSetting("VelocityVector",Vector3.new(1,0,1))
 	CheckSetting("MovementVelocity",false)
