@@ -51,6 +51,8 @@ wait(5)
 	CheckSetting("MultiThread",true)
 	CheckSetting("AlignsEnabled",false)
 	CheckSetting("ArtificialHeartBeat",{"PreRender","PreAnimation","PreSimulation","PostSimulation"})
+print("58")
+wait(3)
 end
 do -- [[ Checks ]] --
 	if not game:IsLoaded("Workspace") then -- scriptware uses isloaded args
