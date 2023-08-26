@@ -50,7 +50,15 @@ do -- [[ Default Settings ]] --
 	CheckSetting("AlignsEnabled",false)
 	CheckSetting("ArtificialHeartBeat",{"PreRender","PreAnimation","PreSimulation","PostSimulation"})
 end
-wait(0.3)
+print("first part is ok")
+-- first part is ok
+-- first part is ok
+-- first part is ok
+-- first part is ok
+-- first part is ok
+-- first part is ok
+-- first part is ok
+wait(5)
 do -- [[ Checks ]] --
 	if not game:IsLoaded("Workspace") then -- scriptware uses isloaded args
 		game.Loaded:Wait()
