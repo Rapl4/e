@@ -9,7 +9,7 @@ end
 local SpeedTest = tick()
 
 local Global = getgenv and getgenv() or shared
-
+wait(1)
 do -- [[ Default Settings ]] -- 
 	local function CheckSetting(Var,DefaultValue)
 		if Global[Var] == nil then
@@ -49,16 +49,8 @@ do -- [[ Default Settings ]] --
 	CheckSetting("MultiThread",true)
 	CheckSetting("AlignsEnabled",false)
 	CheckSetting("ArtificialHeartBeat",{"PreRender","PreAnimation","PreSimulation","PostSimulation"})
+wait(0.5)
 end
-print("first part is ok")
--- first part is ok
--- first part is ok
--- first part is ok
--- first part is ok
--- first part is ok
--- first part is ok
--- first part is ok
-wait(5)
 do -- [[ Checks ]] --
 	if not game:IsLoaded("Workspace") then -- scriptware uses isloaded args
 		game.Loaded:Wait()
@@ -73,7 +65,7 @@ do -- [[ Checks ]] --
 		Global.ArtificialHeartBeat = {"PreRender","PreAnimation","PreSimulation","PostSimulation"}
 	end
 end
-
+wait(0.5)
 local safecloneref,GetService; do
 	local CachedServices = {}
 
