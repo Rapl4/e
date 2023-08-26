@@ -72,7 +72,8 @@ do -- [[ Checks ]] --
 		Global.ArtificialHeartBeat = {"PreRender","PreAnimation","PreSimulation","PostSimulation"}
 	end
 end
-wait(0.5)
+print("8998989898")
+wait(2)
 local safecloneref,GetService; do
 	local CachedServices = {}
 
