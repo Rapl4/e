@@ -41,7 +41,7 @@ print("ok boomer")
 
 	CheckSetting("FakePermaDeath",false)
 wait(5)
-	CheckSetting("Collisions",true)
+	CheckSetting("Collisions",false)
 print("1")
 wait(1)
 	CheckSetting("TorsoDelayFix",true)
