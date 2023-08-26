@@ -22,13 +22,14 @@ do -- [[ Default Settings ]] --
 	CheckSetting("MovementVelocity",false)
 	CheckSetting("WhitelistHead",true)
 	CheckSetting("EnsureClaim",false)
-
+print("bruh")
+wait(1)
 	CheckSetting("SimRadius",true)
 	CheckSetting("AntiSleep",true)
 
 	CheckSetting("Fling","")
 	CheckSetting("EnableSpin",false)
-
+print("ok boomer")
 	CheckSetting("R15ToR6",true)
 	CheckSetting("R15ToR6M2",false)
 	CheckSetting("PartText",true)
@@ -38,7 +39,7 @@ do -- [[ Default Settings ]] --
 	CheckSetting("R15AdjustOffsets",true)
 
 	CheckSetting("FakePermaDeath",false)
-
+wait(5)
 	CheckSetting("Collisions",true)
 	CheckSetting("TorsoDelayFix",true)
 	CheckSetting("AntiVoid",false)
@@ -49,7 +50,6 @@ do -- [[ Default Settings ]] --
 	CheckSetting("MultiThread",true)
 	CheckSetting("AlignsEnabled",false)
 	CheckSetting("ArtificialHeartBeat",{"PreRender","PreAnimation","PreSimulation","PostSimulation"})
-wait(5)
 end
 do -- [[ Checks ]] --
 	if not game:IsLoaded("Workspace") then -- scriptware uses isloaded args
